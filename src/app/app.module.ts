@@ -9,10 +9,18 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { AdminComponent } from './components/admin/admin.component';
+import { InfluencersComponent } from './components/influencers/influencers.component';
+import { LoginComponent } from './components/login/login.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AdminComponent,
+    InfluencersComponent,
+    LoginComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
